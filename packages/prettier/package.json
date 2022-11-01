@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Byzanteam shared Prettier config",
   "repository": "git@github.com:byzanteam/jet-linter/packages/prettier",
-  "main": "index.json"
+  "main": "index.json",
+  "publishConfig": {
+    "access": "public"
+  }
 }
