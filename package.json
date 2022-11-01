@@ -1,5 +1,9 @@
 {
   "name": "root",
   "version": "1.0.0",
-  "description": "jet linters, such as eslint, prettier"
+  "description": "jet linters, such as eslint, prettier",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.25.0"
+  }
 }
