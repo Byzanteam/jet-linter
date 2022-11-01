@@ -1,0 +1,22 @@
+{
+  "name": "@byzanteam/eslint-config-vue-ts",
+  "description": "Byzanteam sharable ESLint configuration for vue-ts.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-vue-ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@byzanteam/eslint-config-vue": "^1.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@byzanteam/eslint-config-vue": "^1.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "typescript": "^4.8.4"
+  }
+}
