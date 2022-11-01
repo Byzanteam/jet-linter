@@ -1,6 +1,6 @@
 {
   "name": "@byzanteam/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Byzanteam shared Prettier config",
   "repository": "git@github.com:byzanteam/jet-linter/packages/prettier",
   "main": "index.json",
