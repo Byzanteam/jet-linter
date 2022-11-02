@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    '@byzanteam/eslint-config-vue',
-    "@vue/eslint-config-typescript"
-  ],
+  extends: ['@byzanteam/eslint-config-vue', '@vue/eslint-config-typescript'],
   rules: {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
