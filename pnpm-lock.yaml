@@ -6,9 +6,30 @@ importers:
     specifiers:
       '@changesets/changelog-github': ^0.4.0
       '@changesets/cli': ^2.25.0
+      eslint: ^8.26.0
+      eslint-config-prettier: ^8.5.0
+      eslint-plugin-json: ^3.1.0
+      eslint-plugin-prettier: ^4.2.1
+      prettier: ^2.7.1
     devDependencies:
       '@changesets/changelog-github': 0.4.7
       '@changesets/cli': 2.25.2
+      eslint: 8.26.0
+      eslint-config-prettier: 8.5.0_eslint@8.26.0
+      eslint-plugin-json: 3.1.0
+      eslint-plugin-prettier: 4.2.1_aniwkeyvlpmwkidetuytnokvcm
+      prettier: 2.7.1
+
+  packages/commitlint:
+    specifiers: {}
+
+  packages/commitlint-monorepo:
+    specifiers:
+      '@byzanteam/commitlint-config': ^1.0.0
+      commitlint-plugin-workspace-scopes: ^1.1.0
+    devDependencies:
+      '@byzanteam/commitlint-config': 'link:'
+      commitlint-plugin-workspace-scopes: 1.1.0
 
   packages/eslint-vue:
     specifiers:
@@ -30,7 +51,7 @@ importers:
 
   packages/eslint-vue-ts:
     specifiers:
-      '@byzanteam/eslint-config-vue': ^1.0.0
+      '@byzanteam/eslint-config-vue': ^4.0.0
       '@vue/eslint-config-prettier': ^7.0.0
       '@vue/eslint-config-typescript': ^11.0.2
       eslint: ^8.26.0
@@ -41,7 +62,7 @@ importers:
       prettier: ^2.7.1
       typescript: ^4.8.4
     devDependencies:
-      '@byzanteam/eslint-config-vue': 1.2.0_syj2gzsl3wo2ztdsjxxsmgkxyu
+      '@byzanteam/eslint-config-vue': link:../eslint-vue
       '@vue/eslint-config-prettier': 7.0.0_5t6g5rrqvlktilv3n3sw5svbdi
       '@vue/eslint-config-typescript': 11.0.2_a2woajwjjwk2j4x6hcq37wa7k4
       eslint: 8.26.0
@@ -86,16 +107,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.10
-    dev: true
-
-  /@byzanteam/eslint-config-vue/1.2.0_syj2gzsl3wo2ztdsjxxsmgkxyu:
-    resolution: {integrity: sha512-RUQFykabkfnnpSCGP+R09qp/h339bfy/dGYtDbQmiSF1dHiNayGSFJdH7ZqWOSVZYoeN7sKGwEYaGRbfXVmY4Q==}
-    peerDependencies:
-      eslint: ^6.8.0 || ^7.11.0
-      eslint-plugin-vue: ^7.1.0
-    dependencies:
-      eslint: 8.26.0
-      eslint-plugin-vue: 9.7.0_eslint@8.26.0
     dev: true
 
   /@changesets/apply-release-plan/6.1.2:
@@ -298,6 +309,26 @@ packages:
       fs-extra: 7.0.1
       human-id: 1.0.2
       prettier: 2.7.1
+    dev: true
+
+  /@commitlint/ensure/12.1.4:
+    resolution: {integrity: sha512-MxHIBuAG9M4xl33qUfIeMSasbv3ktK0W+iygldBxZOL4QSYC2Gn66pZAQMnV9o3V+sVFHoAK2XUKqBAYrgbEqw==}
+    engines: {node: '>=v10'}
+    dependencies:
+      '@commitlint/types': 12.1.4
+      lodash: 4.17.21
+    dev: true
+
+  /@commitlint/message/12.1.4:
+    resolution: {integrity: sha512-6QhalEKsKQ/Y16/cTk5NH4iByz26fqws2ub+AinHPtM7Io0jy4e3rym9iE+TkEqiqWZlUigZnTwbPvRJeSUBaA==}
+    engines: {node: '>=v10'}
+    dev: true
+
+  /@commitlint/types/12.1.4:
+    resolution: {integrity: sha512-KRIjdnWNUx6ywz+SJvjmNCbQKcKP6KArhjZhY2l+CWKxak0d77SOjggkMwFTiSgLODOwmuLTbarR2ZfWPiPMlw==}
+    engines: {node: '>=v10'}
+    dependencies:
+      chalk: 4.1.2
     dev: true
 
   /@eslint/eslintrc/1.3.3:
@@ -791,6 +822,14 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
+  /commitlint-plugin-workspace-scopes/1.1.0:
+    resolution: {integrity: sha512-1ElG5CLfAwXmlMCej85V/mfUauBDk1kwXEXSMSpNNsizNLm+uRG/bPhbWQR2pIKk+Yd7tIDY8paMMxpF/YnMMA==}
+    dependencies:
+      '@commitlint/ensure': 12.1.4
+      '@commitlint/message': 12.1.4
+      '@manypkg/get-packages': 1.1.3
+    dev: true
+
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
@@ -1100,6 +1139,14 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-json/3.1.0:
+    resolution: {integrity: sha512-MrlG2ynFEHe7wDGwbUuFPsaT2b1uhuEFhJ+W1f1u+1C2EkXmTYJp4B1aAdQQ8M+CC3t//N/oRKiIVw14L2HR1g==}
+    engines: {node: '>=12.0'}
+    dependencies:
+      lodash: 4.17.21
+      vscode-json-languageservice: 4.2.1
     dev: true
 
   /eslint-plugin-prettier/4.2.1_5t6g5rrqvlktilv3n3sw5svbdi:
@@ -1768,6 +1815,10 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.7
+    dev: true
+
+  /jsonc-parser/3.2.0:
+    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: true
 
   /jsonfile/4.0.0:
@@ -2594,6 +2645,32 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vscode-json-languageservice/4.2.1:
+    resolution: {integrity: sha512-xGmv9QIWs2H8obGbWg+sIPI/3/pFgj/5OWBhNzs00BkYQ9UaB2F6JJaGB/2/YOZJ3BvLXQTC4Q7muqU25QgAhA==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      vscode-languageserver-textdocument: 1.0.7
+      vscode-languageserver-types: 3.17.2
+      vscode-nls: 5.2.0
+      vscode-uri: 3.0.6
+    dev: true
+
+  /vscode-languageserver-textdocument/1.0.7:
+    resolution: {integrity: sha512-bFJH7UQxlXT8kKeyiyu41r22jCZXG8kuuVVA33OEJn1diWOZK5n8zBSPZFHVBOu8kXZ6h0LIRhf5UnCo61J4Hg==}
+    dev: true
+
+  /vscode-languageserver-types/3.17.2:
+    resolution: {integrity: sha512-zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==}
+    dev: true
+
+  /vscode-nls/5.2.0:
+    resolution: {integrity: sha512-RAaHx7B14ZU04EU31pT+rKz2/zSl7xMsfIZuo8pd+KZO6PXtQmpevpq3vxvWNcrGbdmhM/rr5Uw5Mz+NBfhVng==}
+    dev: true
+
+  /vscode-uri/3.0.6:
+    resolution: {integrity: sha512-fmL7V1eiDBFRRnu+gfRWTzyPpNIHJTc4mWnFkwBUmO9U3KPgJAmTx7oxi2bl/Rh6HLdU7+4C9wlj0k2E4AdKFQ==}
     dev: true
 
   /vue-eslint-parser/9.1.0_eslint@8.26.0:
