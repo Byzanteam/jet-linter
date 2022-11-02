@@ -32,7 +32,7 @@ jobs:
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: ${{ runner.os }}-pnpm-
 
-      - run: pnpm install
+      - run: pnpm install --no-frozen-lockfile
       - uses: changesets/action@v1
         with:
           publish: pnpm changeset publish
