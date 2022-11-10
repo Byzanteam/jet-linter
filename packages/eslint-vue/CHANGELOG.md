@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-vue
 
+## 4.1.0
+
+### Minor Changes
+
+- [#10](https://github.com/Byzanteam/jet-linter/pull/10) [`dbe04ab`](https://github.com/Byzanteam/jet-linter/commit/dbe04ab5a1677777037a57eca6060a5b04135ec8) Thanks [@moonRider](https://github.com/moonRider)! - Add Empty Line lint configs
+
 ## 4.0.0
 
 ### Major Changes
