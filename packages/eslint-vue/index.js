@@ -48,6 +48,55 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
+    'import/newline-after-import': ['error'],
+    'vue/padding-line-between-blocks': ['error', 'always'],
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: ['const', 'let', 'var'],
+        next: ['*'],
+      },
+      {
+        blankLine: 'any',
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
+      },
+      {
+        blankLine: 'always',
+        prev: ['expression'],
+        next: ['*'],
+      },
+      {
+        blankLine: 'any',
+        prev: ['expression'],
+        next: ['expression'],
+      },
+      {
+        blankLine: 'always',
+        prev: ['const', 'let', 'var'],
+        next: [
+          'block',
+          'if',
+          'function',
+          'multiline-const',
+          'multiline-let',
+          'multiline-var',
+        ],
+      },
+      {
+        blankLine: 'always',
+        prev: [
+          'if',
+          'block',
+          'function',
+          'multiline-const',
+          'multiline-let',
+          'multiline-var',
+        ],
+        next: ['*'],
+      },
+    ],
   },
   settings: {
     'import/resolver': {

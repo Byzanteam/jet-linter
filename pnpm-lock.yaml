@@ -25,10 +25,10 @@ importers:
 
   packages/commitlint-monorepo:
     specifiers:
-      '@byzanteam/commitlint-config': ^1.0.1
+      '@byzanteam/commitlint-config': ^1.0.0
       commitlint-plugin-workspace-scopes: ^1.1.0
     devDependencies:
-      '@byzanteam/commitlint-config': 'link:'
+      '@byzanteam/commitlint-config': link:../commitlint
       commitlint-plugin-workspace-scopes: 1.1.0
 
   packages/eslint-vue:
