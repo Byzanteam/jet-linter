@@ -51,7 +51,7 @@ importers:
 
   packages/eslint-vue-ts:
     specifiers:
-      '@byzanteam/eslint-config-vue': ^4.0.0
+      '@byzanteam/eslint-config-vue': ^4.1.0
       '@vue/eslint-config-prettier': ^7.0.0
       '@vue/eslint-config-typescript': ^11.0.2
       eslint: ^8.26.0
