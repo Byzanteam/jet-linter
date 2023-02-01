@@ -3,6 +3,10 @@
   "description": "Byzanteam sharable ESLint configuration for vue-ts.",
   "version": "2.0.0",
   "main": "index.js",
+  "files": [
+    "./index.js",
+    "./README.md"
+  ],
   "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-vue-ts",
   "publishConfig": {
     "access": "public"
