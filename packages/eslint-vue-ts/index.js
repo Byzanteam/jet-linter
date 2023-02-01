@@ -1,22 +1,13 @@
 module.exports = {
-  extends: ['@byzanteam/eslint-config-vue', '@vue/eslint-config-typescript'],
+  extends: [
+    '@byzanteam/eslint-config-ts',
+    'plugin:vue/vue3-essential',
+    '@vue/eslint-config-typescript/recommended',
+    '@vue/eslint-config-prettier',
+  ],
+  env: { 'vue/setup-compiler-macros': true },
   rules: {
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { argsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_' },
-    ],
-    '@typescript-eslint/no-non-null-assertion': 'off',
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.vue', '.ts'],
-      },
-      alias: {
-        map: [['@', './src']],
-        extensions: ['.js', '.vue', '.ts'],
-      },
-    },
+    'vue/multi-word-component-names': ['error', { ignores: ['index'] }],
+    'vue/padding-line-between-blocks': ['error', 'always'],
   },
 }
