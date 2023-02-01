@@ -37,16 +37,4 @@ see also https://prettier.io/docs/en/configuration.html#sharing-configurations
 
 ### tsconfig
 
-> Install
-```sh
-pnpm add @vue/tsconfig @byzanteam/tsconfig -D
-```
-
-> Usage
-
-tsconfig.json
-```json
-{
-  "extends": "@byzanteam/tsconfig/index.json"
-}
-```
+**[how to use](/packages/tsconfig)**
