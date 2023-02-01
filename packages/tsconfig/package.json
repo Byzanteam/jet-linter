@@ -2,7 +2,15 @@
   "name": "@byzanteam/tsconfig",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "index.json",
+  "main": "./tsconfig.base.json",
+  "exports": {
+    ".": "./tsconfig.base.json",
+    "./vue": "./tsconfig.vue.json"
+  },
+  "files": [
+    "./tsconfig.base.json",
+    "./tsconfig.vue.json"
+  ],
   "publishConfig": {
     "access": "public"
   }
