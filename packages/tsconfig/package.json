@@ -9,7 +9,8 @@
   },
   "files": [
     "./tsconfig.base.json",
-    "./tsconfig.vue.json"
+    "./tsconfig.vue.json",
+    "./README.md"
   ],
   "publishConfig": {
     "access": "public"
