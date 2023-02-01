@@ -33,7 +33,6 @@ importers:
 
   packages/eslint-ts:
     specifiers:
-      '@byzanteam/tsconfig': ^1.0.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
       eslint: ^8.26.0
@@ -43,7 +42,6 @@ importers:
       prettier: ^2.7.1
       typescript: ^4.8.4
     devDependencies:
-      '@byzanteam/tsconfig': link:../tsconfig
       '@typescript-eslint/eslint-plugin': 5.49.0_q5tnqxyp7ewktuyxujsngym7be
       '@typescript-eslint/parser': 5.49.0_wyqvi574yv7oiwfeinomdzmc3m
       eslint: 8.26.0
