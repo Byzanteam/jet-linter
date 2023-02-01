@@ -1,0 +1,36 @@
+{
+  "name": "@byzanteam/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Byzanteam sharable ESLint configuration",
+  "main": "index.js",
+  "files": [
+    "./index.js",
+    "./READEME.md"
+  ],
+  "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@byzanteam/tsconfig": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@byzanteam/tsconfig": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}

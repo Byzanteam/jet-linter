@@ -2,41 +2,31 @@
 
 ## Install & Usage
 
-### eslint-vue
+### eslint-ts
 
-> Install
-
-```sh
-pnpm add @byzanteam/eslint-config-vue -D
-```
-
-> Usage
-
-```js
-// .eslintrc.js
-module.exports = {
-  extends: ['@byzanteam/eslint-config-vue']
-}
-```
+**[how to use](https://github.com/Byzanteam/jet-linter/blob/main/packages/eslint-ts/README.md)**
 
 ### eslint-vue-ts
 
 > Install
+
 ```sh
 pnpm add @byzanteam/eslint-config-vue-ts -D
 ```
 
 > Usage
+
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@byzanteam/eslint-config-vue-ts']
+  extends: ['@byzanteam/eslint-config-vue-ts'],
 }
 ```
 
 ### prettier
 
 > Install
+
 ```sh
 pnpm add @byzanteam/prettier-config -D
 ```
