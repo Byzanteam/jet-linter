@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Byzanteam sharable ESLint configuration",
   "main": "index.js",
+  "files": [
+    "./index.js",
+    "./READEME.md"
+  ],
   "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-ts",
   "publishConfig": {
     "access": "public"
