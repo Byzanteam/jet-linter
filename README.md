@@ -4,24 +4,11 @@
 
 ### eslint-ts
 
-**[how to use](https://github.com/Byzanteam/jet-linter/blob/main/packages/eslint-ts/README.md)**
+**[how to use](/packages/eslint-ts)**
 
 ### eslint-vue-ts
 
-> Install
-
-```sh
-pnpm add @byzanteam/eslint-config-vue-ts -D
-```
-
-> Usage
-
-```js
-// .eslintrc.js
-module.exports = {
-  extends: ['@byzanteam/eslint-config-vue-ts'],
-}
-```
+**[how to use](/packages/eslint-vue-ts)**
 
 ### prettier
 
