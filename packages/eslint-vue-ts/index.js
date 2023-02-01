@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
-    '@byzanteam/eslint-config-ts',
-    'plugin:vue/vue3-essential',
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
+    '@byzanteam/eslint-config-ts',
+    'plugin:vue/vue3-essential',
   ],
   env: { 'vue/setup-compiler-macros': true },
   rules: {
