@@ -3,13 +3,15 @@
 **Install**:
 
 ```bash
-$ pnpm add @byzanteam/eslint-config-ts -D
+$ pnpm add @byzanteam/eslint-config-ts @rushstack/eslint-patch -D
 ```
 
-**Edit `.eslintrc`**:
+**Edit `.eslintrc.cjs`**:
 
-```json
-{
-  "extends": ["@byzanteam/eslint-config-ts"]
+```js
+require('@rushstack/eslint-patch/modern-module-resolution')
+
+module.exports = {
+  extends: ['@byzanteam/eslint-config-ts'],
 }
 ```

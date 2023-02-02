@@ -22,6 +22,7 @@
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
     "eslint": "^8.26.0",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4"

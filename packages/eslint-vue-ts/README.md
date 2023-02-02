@@ -3,13 +3,15 @@
 **Install**:
 
 ```bash
-$ pnpm add @byzanteam/eslint-config-vue-ts -D
+$ pnpm add @byzanteam/eslint-config-vue-ts @rushstack/eslint-patch -D
 ```
 
 **Edit `.eslintrc`**:
 
-```json
-{
-  "extends": ["@byzanteam/eslint-config-vue-ts"]
+```js
+require('@rushstack/eslint-patch/modern-module-resolution')
+
+module.exports = {
+  extends: ['@byzanteam/eslint-config-vue-ts'],
 }
 ```
