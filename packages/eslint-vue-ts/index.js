@@ -7,7 +7,10 @@ module.exports = {
   ],
   env: { 'vue/setup-compiler-macros': true },
   rules: {
+    'vue/no-unused-properties': 'error',
+    'vue/require-name-property': 'error',
     'vue/multi-word-component-names': ['error', { ignores: ['index'] }],
+    'vue/component-options-name-casing': ['error', 'PascalCase'],
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/prop-name-casing': ['error', 'camelCase'],
     'vue/custom-event-name-casing': ['error', 'camelCase'],
