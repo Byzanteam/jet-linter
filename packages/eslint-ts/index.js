@@ -20,6 +20,8 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-unused-vars': 'off',
+    'no-implicit-coercion': ['error', { disallowTemplateShorthand: true }],
+    'prefer-template': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_' },
