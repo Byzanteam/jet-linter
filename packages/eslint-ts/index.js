@@ -19,14 +19,16 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-unused-vars': 'off',
     'no-implicit-coercion': ['error', { disallowTemplateShorthand: true }],
     'prefer-template': 'error',
+    'no-useless-concat': 'error',
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_' },
     ],
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-explicit-any': 'error',
     'import/named': 'off',
     'import/order': [
       'error',
