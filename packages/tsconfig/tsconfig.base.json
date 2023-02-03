@@ -2,10 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "target": "esnext",
+    "lib": ["ESNext"],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "noEmit": true,
     "strict": true,
     "composite": false,
     "inlineSources": false,
@@ -17,7 +19,8 @@
     "isolatedModules": true,
     "importsNotUsedAsValues": "error",
     "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "preserveValueImports": true
   },
   "exclude": ["node_modules"]
 }
