@@ -1,5 +1,14 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 3.0.1
+
+### Patch Changes
+
+- [#35](https://github.com/Byzanteam/jet-linter/pull/35) [`0167778`](https://github.com/Byzanteam/jet-linter/commit/0167778d1133c4c21826e5c96998d62b06e64366) Thanks [@shaddollxz](https://github.com/shaddollxz)! - eslint-vue-ts dependencies change
+
+- Updated dependencies [[`0167778`](https://github.com/Byzanteam/jet-linter/commit/0167778d1133c4c21826e5c96998d62b06e64366)]:
+  - @byzanteam/eslint-config-ts@2.0.1
+
 ## 3.0.0
 
 ### Major Changes
