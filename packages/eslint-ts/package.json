@@ -1,6 +1,6 @@
 {
   "name": "@byzanteam/eslint-config-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Byzanteam sharable ESLint configuration",
   "main": "index.js",
   "files": [

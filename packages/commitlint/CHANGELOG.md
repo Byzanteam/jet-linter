@@ -1,5 +1,11 @@
 # @byzanteam/commitlint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- [#35](https://github.com/Byzanteam/jet-linter/pull/35) [`0167778`](https://github.com/Byzanteam/jet-linter/commit/0167778d1133c4c21826e5c96998d62b06e64366) Thanks [@shaddollxz](https://github.com/shaddollxz)! - commitlint dependencies change
+
 ## 1.0.3
 
 ### Patch Changes
