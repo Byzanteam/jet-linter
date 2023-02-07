@@ -1,5 +1,11 @@
 # @byzanteam/tsconfig
 
+## 2.0.3
+
+### Patch Changes
+
+- [#43](https://github.com/Byzanteam/jet-linter/pull/43) [`e7f55c9`](https://github.com/Byzanteam/jet-linter/commit/e7f55c96f6a1398b81f0943a4afe9d1e6249d443) Thanks [@shaddollxz](https://github.com/shaddollxz)! - remove exports alias
+
 ## 2.0.2
 
 ### Patch Changes
