@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-ts
 
+## 2.0.2
+
+### Patch Changes
+
+- [#39](https://github.com/Byzanteam/jet-linter/pull/39) [`d72403a`](https://github.com/Byzanteam/jet-linter/commit/d72403a05c250b7360ba9bad68ef4a926a270f88) Thanks [@moonRider](https://github.com/moonRider)! - Fix files field error
+
 ## 2.0.1
 
 ### Patch Changes
