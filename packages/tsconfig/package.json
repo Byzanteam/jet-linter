@@ -3,10 +3,6 @@
   "version": "2.0.2",
   "license": "MIT",
   "main": "tsconfig.base.json",
-  "exports": {
-    ".": "./tsconfig.base.json",
-    "./vue": "./tsconfig.vue.json"
-  },
   "publishConfig": {
     "access": "public"
   },
