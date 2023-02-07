@@ -1,5 +1,11 @@
 # @byzanteam/tsconfig
 
+## 2.0.2
+
+### Patch Changes
+
+- [#41](https://github.com/Byzanteam/jet-linter/pull/41) [`2b6f825`](https://github.com/Byzanteam/jet-linter/commit/2b6f825cdf0f8503deabcfef200f53ab72c7b1a5) Thanks [@moonRider](https://github.com/moonRider)! - Fix extends field error
+
 ## 2.0.1
 
 ### Patch Changes
