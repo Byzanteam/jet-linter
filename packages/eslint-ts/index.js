@@ -23,6 +23,8 @@ module.exports = {
     'prefer-template': 'error',
     'no-useless-concat': 'error',
     'no-unused-vars': 'off',
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { argsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_' },
