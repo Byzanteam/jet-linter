@@ -1,5 +1,14 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 3.0.3
+
+### Patch Changes
+
+- [#49](https://github.com/Byzanteam/jet-linter/pull/49) [`1cb8860`](https://github.com/Byzanteam/jet-linter/commit/1cb8860b36bf0006429b3ea6dcf0e713f94f13b6) Thanks [@shaddollxz](https://github.com/shaddollxz)! - typescript support function overload
+
+- Updated dependencies [[`1cb8860`](https://github.com/Byzanteam/jet-linter/commit/1cb8860b36bf0006429b3ea6dcf0e713f94f13b6)]:
+  - @byzanteam/eslint-config-ts@2.0.3
+
 ## 3.0.2
 
 ### Patch Changes
