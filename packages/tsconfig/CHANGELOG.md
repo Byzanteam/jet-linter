@@ -1,5 +1,11 @@
 # @byzanteam/tsconfig
 
+## 2.0.4
+
+### Patch Changes
+
+- [#45](https://github.com/Byzanteam/jet-linter/pull/45) [`3886ff9`](https://github.com/Byzanteam/jet-linter/commit/3886ff92082a0d098975ef23be41aeb268872eb8) Thanks [@shaddollxz](https://github.com/shaddollxz)! - tsconfig-vue remove exactOptionalPropertyTypes
+
 ## 2.0.3
 
 ### Patch Changes
