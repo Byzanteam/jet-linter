@@ -20,4 +20,12 @@ module.exports = {
     'vue/no-required-prop-with-default': 'error',
     'vue/attribute-hyphenation': 'error',
   },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
+      },
+    },
+  },
 }
