@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    // build options
     "target": "esnext",
     "lib": ["ESNext"],
     "module": "esnext",
@@ -8,19 +9,21 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "noEmit": true,
+    "isolatedModules": true,
+    "inlineSources": false,
+    "removeComments": true,
+    // lint options
     "strict": true,
     "composite": false,
-    "inlineSources": false,
     "preserveWatchOutput": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitOverride": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "importsNotUsedAsValues": "error",
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
-    "preserveValueImports": true
+    "verbatimModuleSyntax": true,
+    "allowArbitraryExtensions": true
   },
   "exclude": ["node_modules"]
 }

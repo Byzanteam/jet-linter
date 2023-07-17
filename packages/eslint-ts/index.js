@@ -15,6 +15,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: ['./tsconfig.json'],
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -31,6 +32,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
     'import/named': 'off',
     'import/order': [
       'error',
@@ -107,11 +109,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.vue', '.ts'],
-      },
-      alias: {
-        map: [['@', './src']],
-        extensions: ['.js', '.vue', '.ts'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
       },
     },
   },
