@@ -1,5 +1,11 @@
 # @byzanteam/tsconfig
 
+## 3.0.0
+
+### Major Changes
+
+- [#51](https://github.com/Byzanteam/jet-linter/pull/51) [`254f590`](https://github.com/Byzanteam/jet-linter/commit/254f590a7396d81eaf791f18f72d2dc9071a9972) Thanks [@shaddollxz](https://github.com/shaddollxz)! - tsconfig support ts5
+
 ## 2.0.4
 
 ### Patch Changes

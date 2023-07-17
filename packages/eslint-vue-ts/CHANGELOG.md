@@ -1,5 +1,18 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 4.0.0
+
+### Major Changes
+
+- [#51](https://github.com/Byzanteam/jet-linter/pull/51) [`254f590`](https://github.com/Byzanteam/jet-linter/commit/254f590a7396d81eaf791f18f72d2dc9071a9972) Thanks [@shaddollxz](https://github.com/shaddollxz)! - eslint and eslint-prettier support ts5
+
+### Patch Changes
+
+- [#51](https://github.com/Byzanteam/jet-linter/pull/51) [`254f590`](https://github.com/Byzanteam/jet-linter/commit/254f590a7396d81eaf791f18f72d2dc9071a9972) Thanks [@shaddollxz](https://github.com/shaddollxz)! - some lint rules update
+
+- Updated dependencies [[`254f590`](https://github.com/Byzanteam/jet-linter/commit/254f590a7396d81eaf791f18f72d2dc9071a9972), [`254f590`](https://github.com/Byzanteam/jet-linter/commit/254f590a7396d81eaf791f18f72d2dc9071a9972)]:
+  - @byzanteam/eslint-config-ts@3.0.0
+
 ## 3.0.3
 
 ### Patch Changes
