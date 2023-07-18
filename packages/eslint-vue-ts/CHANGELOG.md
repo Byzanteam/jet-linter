@@ -1,5 +1,14 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 4.0.1
+
+### Patch Changes
+
+- [#53](https://github.com/Byzanteam/jet-linter/pull/53) [`b59e6c5`](https://github.com/Byzanteam/jet-linter/commit/b59e6c5a4aa849b2fc65da6690ea51b0ff239089) Thanks [@shaddollxz](https://github.com/shaddollxz)! - add type-checked rules and fix type-checked error when use vue
+
+- Updated dependencies [[`b59e6c5`](https://github.com/Byzanteam/jet-linter/commit/b59e6c5a4aa849b2fc65da6690ea51b0ff239089)]:
+  - @byzanteam/eslint-config-ts@3.0.1
+
 ## 4.0.0
 
 ### Major Changes
