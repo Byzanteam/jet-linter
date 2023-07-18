@@ -1,11 +1,14 @@
 module.exports = {
   extends: [
-    '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier',
     '@byzanteam/eslint-config-ts',
+    '@vue/eslint-config-typescript/recommended',
     'plugin:vue/vue3-essential',
   ],
   env: { 'vue/setup-compiler-macros': true },
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+  },
   rules: {
     'vue/no-unused-properties': 'error',
     'vue/require-name-property': 'error',
