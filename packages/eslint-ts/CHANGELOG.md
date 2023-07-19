@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-ts
 
+## 3.0.2
+
+### Patch Changes
+
+- [#55](https://github.com/Byzanteam/jet-linter/pull/55) [`0f6395e`](https://github.com/Byzanteam/jet-linter/commit/0f6395e65bed5593c5d240274855c496160416ab) Thanks [@shaddollxz](https://github.com/shaddollxz)! - lint extends type-checking error
+
 ## 3.0.1
 
 ### Patch Changes
