@@ -1,7 +1,7 @@
 {
   "name": "@byzanteam/eslint-config-vue-ts",
   "description": "Byzanteam sharable ESLint configuration for vue-ts.",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "main": "index.js",
   "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-vue-ts",
   "publishConfig": {
