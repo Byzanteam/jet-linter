@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-ts
 
+## 3.0.3
+
+### Patch Changes
+
+- [#57](https://github.com/Byzanteam/jet-linter/pull/57) [`80c3dfa`](https://github.com/Byzanteam/jet-linter/commit/80c3dfaef9e30c3197f7c750b29ff41fa9152044) Thanks [@shaddollxz](https://github.com/shaddollxz)! - rule update
+
 ## 3.0.2
 
 ### Patch Changes
