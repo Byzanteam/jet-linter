@@ -34,6 +34,8 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
+    '@typescript-eslint/no-floating-promises': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
     'import/named': 'off',
     'import/order': [
       'error',
