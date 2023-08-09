@@ -22,6 +22,7 @@ module.exports = {
     'vue/define-emits-declaration': ['error', 'type-based'],
     'vue/no-required-prop-with-default': 'error',
     'vue/attribute-hyphenation': 'error',
+    'vue/no-setup-props-destructure': 'warn',
   },
   settings: {
     'import/resolver': {
