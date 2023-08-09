@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     '@vue/eslint-config-prettier',
-    '@byzanteam/eslint-config-ts',
     '@vue/eslint-config-typescript/recommended',
+    '@byzanteam/eslint-config-ts',
     'plugin:vue/vue3-essential',
   ],
   env: { 'vue/setup-compiler-macros': true },
@@ -22,6 +22,7 @@ module.exports = {
     'vue/define-emits-declaration': ['error', 'type-based'],
     'vue/no-required-prop-with-default': 'error',
     'vue/attribute-hyphenation': 'error',
+    'vue/no-setup-props-destructure': 'warn',
   },
   settings: {
     'import/resolver': {
