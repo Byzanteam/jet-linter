@@ -10,6 +10,14 @@
 
 **[how to use](/packages/eslint-vue-ts)**
 
+### commitlint
+
+**[how to use](/packages/commitlint)**
+
+### commitlint with monorepo
+
+**[how to use](/packages/commitlint-monorepo)**
+
 ### prettier
 
 > Install
