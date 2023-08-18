@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 importers:
 
   .:
@@ -51,9 +47,6 @@ importers:
 
   packages/eslint-ts:
     dependencies:
-      '@rushstack/eslint-patch':
-        specifier: ^1.2.0
-        version: 1.2.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.62.0
         version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.44.0)(typescript@5.0.2)
@@ -88,9 +81,6 @@ importers:
       '@byzanteam/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-ts
-      '@rushstack/eslint-patch':
-        specifier: ^1.2.0
-        version: 1.2.0
       '@typescript-eslint/parser':
         specifier: 5.62.0
         version: 5.62.0(eslint@8.44.0)(typescript@5.0.2)
@@ -122,11 +112,7 @@ importers:
 
   packages/prettier: {}
 
-  packages/tsconfig:
-    dependencies:
-      typescript:
-        specifier: ^5.0.2
-        version: 5.0.2
+  packages/tsconfig: {}
 
 packages:
 
@@ -679,10 +665,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-
-  /@rushstack/eslint-patch@1.2.0:
-    resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
-    dev: false
 
   /@tsconfig/node10@1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
@@ -3519,3 +3501,7 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
