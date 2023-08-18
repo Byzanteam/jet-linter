@@ -23,3 +23,11 @@ _use vue config_
   "extends": "@byzanteam/tsconfig/tsconfig.vue.json"
 }
 ```
+
+_use next config_
+
+```jsonc
+{
+  "extends": "@byzanteam/tsconfig/tsconfig.next.json"
+}
+```
