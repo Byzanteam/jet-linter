@@ -10,6 +10,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
   rules: {
+    '@typescript-eslint/no-unsafe-member-access': 'off',
     'vue/no-unused-properties': 'error',
     'vue/require-name-property': 'error',
     'vue/multi-word-component-names': ['error', { ignores: ['index'] }],
