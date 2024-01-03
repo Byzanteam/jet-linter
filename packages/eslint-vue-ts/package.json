@@ -11,7 +11,11 @@
     "@byzanteam/eslint-config-ts": "workspace:*",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
-    "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-vue": "^9.15.1"
+    "eslint-import-resolver-alias": "^1.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.44.x",
+    "prettier": ">=2.x",
+    "typescript": "^5.0.x"
   }
 }
