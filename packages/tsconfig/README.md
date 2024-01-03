@@ -24,6 +24,14 @@ _use vue config_
 }
 ```
 
+_use recat config_
+
+```jsonc
+{
+  "extends": "@byzanteam/tsconfig/tsconfig.react.json"
+}
+```
+
 _use next config_
 
 ```jsonc
