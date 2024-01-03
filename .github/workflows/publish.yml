@@ -14,13 +14,13 @@ jobs:
     steps:
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.1.0
+          version: 8.9.0
       - uses: actions/checkout@main
         with:
           fetch-depth: 0
       - uses: actions/setup-node@main
         with:
-          node-version: 14
+          node-version: 18
           registry-url: https://registry.npmjs.org/
       - name: Get pnpm store directory
         id: pnpm-cache
