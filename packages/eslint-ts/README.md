@@ -15,3 +15,8 @@ module.exports = {
   extends: ['@byzanteam/eslint-config-ts'],
 }
 ```
+
+## Note
+* `eslint: ^8.44.x`
+* `prettier: ^2.8.x`
+* `typescript: ^5.0.x`
