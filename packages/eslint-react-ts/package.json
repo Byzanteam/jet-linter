@@ -10,5 +10,10 @@
   "dependencies": {
     "@byzanteam/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.33.x"
+  },
+  "peerDependencies": {
+    "eslint": "^8.44.x",
+    "prettier": ">=2.x",
+    "typescript": "^5.0.x"
   }
 }
