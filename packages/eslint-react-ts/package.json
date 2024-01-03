@@ -1,0 +1,14 @@
+{
+  "name": "@byzanteam/eslint-config-react-ts",
+  "description": "Byzanteam sharable ESLint configuration for react.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-react-ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@byzanteam/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.33.x"
+  }
+}
