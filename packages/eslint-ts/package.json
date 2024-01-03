@@ -13,5 +13,10 @@
     "eslint-config-prettier": "^8.8.x",
     "eslint-plugin-import": "^2.6.x",
     "eslint-plugin-prettier": "^4.2.x"
+  },
+  "peerDependencies": {
+    "eslint": "^8.44.x",
+    "prettier": ">=2.x",
+    "typescript": "^5.0.x"
   }
 }
