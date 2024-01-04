@@ -1,5 +1,13 @@
 # @byzanteam/tsconfig
 
+## 3.1.0
+
+### Minor Changes
+
+- [#59](https://github.com/Byzanteam/jet-linter/pull/59) [`7c74022f57f820aa3cacc9ba0fe357ad35d14c9b`](https://github.com/Byzanteam/jet-linter/commit/7c74022f57f820aa3cacc9ba0fe357ad35d14c9b) Thanks [@moonRider](https://github.com/moonRider)! - Add tsconfig for nextjs app
+
+- [#63](https://github.com/Byzanteam/jet-linter/pull/63) [`8887b349e5bc06d38254d8bbf0e2c89221cf21ca`](https://github.com/Byzanteam/jet-linter/commit/8887b349e5bc06d38254d8bbf0e2c89221cf21ca) Thanks [@moonRider](https://github.com/moonRider)! - Add tsconfig for react
+
 ## 3.0.0
 
 ### Major Changes
