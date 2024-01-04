@@ -1,6 +1,6 @@
 {
   "name": "@byzanteam/eslint-config-ts",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "description": "Byzanteam sharable ESLint configuration",
   "main": "index.js",
   "repository": "git@github.com:byzanteam/jet-linter/packages/eslint-ts",
