@@ -12,8 +12,8 @@
     "eslint-plugin-react": "^7.33.x"
   },
   "peerDependencies": {
-    "eslint": "^8.44.x",
-    "prettier": ">=2.x",
+    "eslint": "^8.56.x",
+    "prettier": "3.0.x",
     "typescript": "^5.0.x"
   }
 }

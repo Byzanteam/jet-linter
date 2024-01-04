@@ -8,15 +8,15 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.62.x",
-    "@typescript-eslint/parser": "^5.62.x",
-    "eslint-config-prettier": "^8.8.x",
-    "eslint-plugin-import": "^2.6.x",
-    "eslint-plugin-prettier": "^4.2.x"
+    "@typescript-eslint/eslint-plugin": "^6.0.x",
+    "@typescript-eslint/parser": "^6.0.x",
+    "eslint-config-prettier": "^9.0.x",
+    "eslint-plugin-import": "^2.29.x",
+    "eslint-plugin-prettier": "^5.0.x"
   },
   "peerDependencies": {
-    "eslint": "^8.44.x",
-    "prettier": ">=2.x",
+    "eslint": "^8.56.x",
+    "prettier": "3.0.x",
     "typescript": "^5.0.x"
   }
 }
