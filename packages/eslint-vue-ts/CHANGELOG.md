@@ -1,5 +1,14 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 4.1.2
+
+### Patch Changes
+
+- [#66](https://github.com/Byzanteam/jet-linter/pull/66) [`92c7e1c52fde1fe61d692b32079fcfa27835961d`](https://github.com/Byzanteam/jet-linter/commit/92c7e1c52fde1fe61d692b32079fcfa27835961d) Thanks [@shaddollxz](https://github.com/shaddollxz)! - update eslint-config-prettier eslint-config-typescript
+
+- Updated dependencies [[`92c7e1c52fde1fe61d692b32079fcfa27835961d`](https://github.com/Byzanteam/jet-linter/commit/92c7e1c52fde1fe61d692b32079fcfa27835961d)]:
+  - @byzanteam/eslint-config-ts@3.1.2
+
 ## 4.1.1
 
 ### Patch Changes

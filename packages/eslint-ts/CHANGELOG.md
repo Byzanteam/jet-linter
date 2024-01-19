@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-ts
 
+## 3.1.2
+
+### Patch Changes
+
+- [#66](https://github.com/Byzanteam/jet-linter/pull/66) [`92c7e1c52fde1fe61d692b32079fcfa27835961d`](https://github.com/Byzanteam/jet-linter/commit/92c7e1c52fde1fe61d692b32079fcfa27835961d) Thanks [@shaddollxz](https://github.com/shaddollxz)! - recommended-requiring-type-checked -> recommended-type-checked
+
 ## 3.1.1
 
 ### Patch Changes

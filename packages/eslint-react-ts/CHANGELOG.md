@@ -1,5 +1,12 @@
 # @byzanteam/eslint-config-react-ts
 
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`92c7e1c52fde1fe61d692b32079fcfa27835961d`](https://github.com/Byzanteam/jet-linter/commit/92c7e1c52fde1fe61d692b32079fcfa27835961d)]:
+  - @byzanteam/eslint-config-ts@3.1.2
+
 ## 2.0.1
 
 ### Patch Changes
