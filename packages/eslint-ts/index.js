@@ -4,13 +4,14 @@ module.exports = {
     node: true,
     es6: true,
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-type-checked',
-    'plugin:import/errors',
     'plugin:prettier/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -118,10 +119,11 @@ module.exports = {
     ],
   },
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
     'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
-      },
+      typescript: true,
     },
   },
 }
