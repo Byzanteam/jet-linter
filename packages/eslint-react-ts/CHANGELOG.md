@@ -1,5 +1,20 @@
 # @byzanteam/eslint-config-react-ts
 
+## 2.1.0
+
+### Minor Changes
+
+- [#70](https://github.com/Byzanteam/jet-linter/pull/70) [`9424f7556aa979f52e3070911e5c3767e52e4c6e`](https://github.com/Byzanteam/jet-linter/commit/9424f7556aa979f52e3070911e5c3767e52e4c6e) Thanks [@shaddollxz](https://github.com/shaddollxz)! - import group use prettier sort
+
+### Patch Changes
+
+- [#68](https://github.com/Byzanteam/jet-linter/pull/68) [`51be3235e15b93f4d76c12875d74ea157f515d68`](https://github.com/Byzanteam/jet-linter/commit/51be3235e15b93f4d76c12875d74ea157f515d68) Thanks [@shaddollxz](https://github.com/shaddollxz)! - import lint check use eslint-import-resolver-typescript
+
+- [#68](https://github.com/Byzanteam/jet-linter/pull/68) [`51be3235e15b93f4d76c12875d74ea157f515d68`](https://github.com/Byzanteam/jet-linter/commit/51be3235e15b93f4d76c12875d74ea157f515d68) Thanks [@shaddollxz](https://github.com/shaddollxz)! - eslint-react enable plugin:react/jsx-runtime
+
+- Updated dependencies [[`9424f7556aa979f52e3070911e5c3767e52e4c6e`](https://github.com/Byzanteam/jet-linter/commit/9424f7556aa979f52e3070911e5c3767e52e4c6e), [`51be3235e15b93f4d76c12875d74ea157f515d68`](https://github.com/Byzanteam/jet-linter/commit/51be3235e15b93f4d76c12875d74ea157f515d68)]:
+  - @byzanteam/eslint-config-ts@3.2.0
+
 ## 2.0.2
 
 ### Patch Changes
