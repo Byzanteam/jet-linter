@@ -124,8 +124,8 @@ importers:
   packages/prettier:
     dependencies:
       '@ianvs/prettier-plugin-sort-imports':
-        specifier: 4.0.2
-        version: 4.0.2(@vue/compiler-sfc@3.4.21)(prettier@3.1.1)
+        specifier: ^4.2.1
+        version: 4.2.1(@vue/compiler-sfc@3.4.21)(prettier@3.1.1)
       '@vue/compiler-sfc':
         specifier: ^3.4.21
         version: 3.4.21
@@ -798,11 +798,11 @@ packages:
   /@humanwhocodes/object-schema@2.0.1:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
 
-  /@ianvs/prettier-plugin-sort-imports@4.0.2(@vue/compiler-sfc@3.4.21)(prettier@3.1.1):
-    resolution: {integrity: sha512-VnsTzyb9aSWpc3v6HvZKD6eolZRvofIYjhda+6IbW1GYwr2byWqK0KhLPbYNkit9MAgShad5bhZ1hgBn867A1A==}
+  /@ianvs/prettier-plugin-sort-imports@4.2.1(@vue/compiler-sfc@3.4.21)(prettier@3.1.1):
+    resolution: {integrity: sha512-NKN1LVFWUDGDGr3vt+6Ey3qPeN/163uR1pOPAlkWpgvAqgxQ6kSdUf1F0it8aHUtKRUzEGcK38Wxd07O61d7+Q==}
     peerDependencies:
-      '@vue/compiler-sfc': '>=3.0.0'
-      prettier: 2.x
+      '@vue/compiler-sfc': 2.7.x || 3.x
+      prettier: 2 || 3
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
