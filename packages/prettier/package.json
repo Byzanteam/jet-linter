@@ -3,8 +3,26 @@
   "version": "1.0.1",
   "description": "Byzanteam shared Prettier config",
   "repository": "git@github.com:byzanteam/jet-linter/packages/prettier",
-  "main": "index.json",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    }
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.0.x"
+  },
+  "peerDependencies": {
+    "@vue/compiler-sfc": "^3.4.21",
+    "prettier": "^3.0.x"
+  },
+  "peerDependenciesMeta": {
+    "@vue/compiler-sfc": {
+      "optional": true
+    }
   }
 }

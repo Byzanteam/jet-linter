@@ -46,30 +46,6 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-unsafe-argument': 'off',
     'import/named': 'off',
-    'import/order': [
-      'error',
-      {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-          'type',
-        ],
-        pathGroups: [
-          {
-            group: 'internal',
-            pattern: '@/**',
-          },
-        ],
-        pathGroupsExcludedImportTypes: ['builtin', 'external'],
-        'newlines-between': 'always',
-        alphabetize: { order: 'asc', caseInsensitive: true },
-      },
-    ],
-    'import/newline-after-import': 'error',
     'padding-line-between-statements': [
       'error',
       {
