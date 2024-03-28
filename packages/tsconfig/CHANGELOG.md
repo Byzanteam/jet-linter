@@ -1,5 +1,11 @@
 # @byzanteam/tsconfig
 
+## 3.1.1
+
+### Patch Changes
+
+- [#71](https://github.com/Byzanteam/jet-linter/pull/71) [`321fa7b101f26d5acdff2c34b066750600267ce7`](https://github.com/Byzanteam/jet-linter/commit/321fa7b101f26d5acdff2c34b066750600267ce7) Thanks [@shaddollxz](https://github.com/shaddollxz)! - tsconfig.next.json include error
+
 ## 3.1.0
 
 ### Minor Changes
