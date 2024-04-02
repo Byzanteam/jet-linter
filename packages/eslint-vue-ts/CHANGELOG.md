@@ -1,5 +1,11 @@
 # @byzanteam/eslint-config-vue-ts
 
+## 4.2.1
+
+### Patch Changes
+
+- [#73](https://github.com/Byzanteam/jet-linter/pull/73) [`f87f931d70cd6ff63fe30ed2683622f33f2e63cb`](https://github.com/Byzanteam/jet-linter/commit/f87f931d70cd6ff63fe30ed2683622f33f2e63cb) Thanks [@shaddollxz](https://github.com/shaddollxz)! - eslint-config-vue-ts dependences need eslint-plugin-vue
+
 ## 4.2.0
 
 ### Minor Changes
