@@ -115,7 +115,7 @@ importers:
         specifier: ^8.56.x
         version: 8.56.0
       eslint-plugin-vue:
-        specifier: ^9.24.0
+        specifier: ^9
         version: 9.24.0(eslint@8.56.0)
       prettier:
         specifier: ^3.0.x
