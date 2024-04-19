@@ -1,5 +1,16 @@
 # @byzanteam/commitlint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- [#75](https://github.com/Byzanteam/jet-linter/pull/75) [`8ed00cc3f0bb9aa8147d9908328c2185b7eecf6e`](https://github.com/Byzanteam/jet-linter/commit/8ed00cc3f0bb9aa8147d9908328c2185b7eecf6e) Thanks [@moonRider](https://github.com/moonRider)! - Update commitlint-cli version
+
+### Patch Changes
+
+- Updated dependencies [[`8ed00cc3f0bb9aa8147d9908328c2185b7eecf6e`](https://github.com/Byzanteam/jet-linter/commit/8ed00cc3f0bb9aa8147d9908328c2185b7eecf6e)]:
+  - @byzanteam/commitlint-config@1.1.0
+
 ## 1.0.5
 
 ### Patch Changes
